@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laxman — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+<div class="grain"></div>
+
+<!-- Social rail -->
+<div class="social-rail">
+  <a href="https://github.com/laxmanvechalapu94-cloud" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://linkedin.com/in/laxman-kumar-b551b3392" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+  <a href="https://twitter.com/LVechalapu98692" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+  <span class="rail-line"></span>
+</div>
+
+<nav>
+  <div class="logo">Portfolio</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+  <ul id="navList">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header id="home">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <div class="eyebrow">👋 Hi, I'm</div>
+      <h1><span class="grad">Laxman</span></h1>
+      <h2 class="role">Full Stack Developer <span class="dot">|</span> AI/ML Enthusiast</h2>
+      <p class="tagline">I build clean, scalable web apps and explore where code meets intelligence. Always curious, always shipping — turning ideas into products that actually work.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+   <div class="hero-photo">
+  <div class="photo-ring">
+    <div class="photo-frame">
+      <img src="WhatsApp Image 2026-07-21 at 5.52.04 PM.jpeg" alt="Laxman" class="avatar-photo">
+    </div>
+  </div>
+  <span class="orbit-dot d1"></span>
+  <span class="orbit-dot d2"></span>
+</div>
+  <a href="#about" class="scroll-cue"><span>SCROLL DOWN</span><span class="pill"><span class="pill-dot"></span></span></a>
+</header>
+
+<section class="section" id="about">
+  <div class="section-head"><span class="section-num">01</span><h2 class="section-title">About <span class="grad2">me</span></h2></div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm <strong>Laxman</strong>, a developer who enjoys turning complex problems into simple, elegant interfaces. My work spans the full stack — from responsive front ends to the databases and APIs running quietly underneath.</p>
+      <p>Lately I've been diving deeper into <strong>AI/ML</strong>, exploring how intelligent systems can be woven into everyday products rather than bolted on as an afterthought.</p>
+      <p>Off the keyboard, I'm still thinking in systems — always looking for the next problem worth solving.</p>
+    </div>
+    <div class="info-card">
+      <div class="info-row"><span class="k">Based in</span><span class="v">Bangalore, India</span></div>
+      <div class="info-row"><span class="k">Role</span><span class="v">Full Stack Developer</span></div>
+      <div class="info-row"><span class="k">Focus</span><span class="v">Web · AI/ML</span></div>
+      <div class="info-row"><span class="k">Status</span><span class="v">Open to opportunities</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="section-head"><span class="section-num">02</span><h2 class="section-title">Tech <span class="grad2">skills</span></h2></div>
+
+  <div class="skill-category">
+    <div class="cat-head"><span class="cat-emoji">💻</span><h3>Frontend Development</h3></div>
+    <div class="icon-grid">
+      <div class="icon-card"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+      <div class="icon-card"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+      <div class="icon-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+      <div class="icon-card"><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></div>
+      <div class="icon-card"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div>
+      <div class="icon-card"><i class="devicon-tailwindcss-plain colored"></i><span>Tailwind CSS</span></div>
+      <div class="icon-card"><i class="devicon-react-original colored"></i><span>React</span></div>
+      <div class="icon-card"><i class="devicon-angularjs-plain colored"></i><span>Angular</span></div>
+      <div class="icon-card"><i class="devicon-nextjs-plain"></i><span>Next.js</span></div>
+      <div class="icon-card"><i class="devicon-jquery-plain colored"></i><span>jQuery</span></div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <div class="cat-head"><span class="cat-emoji">🧠</span><h3>Backend Development</h3></div>
+    <div class="icon-grid">
+      <div class="icon-card"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+      <div class="icon-card"><i class="devicon-express-original"></i><span>Express.js</span></div>
+      <div class="icon-card"><i class="devicon-django-plain colored"></i><span>Django</span></div>
+      <div class="icon-card"><i class="devicon-flask-original"></i><span>Flask</span></div>
+      <div class="icon-card"><i class="devicon-fastapi-plain colored"></i><span>FastAPI</span></div>
+      <div class="icon-card"><i class="fa-solid fa-fire icon-fallback" style="color:#ff6b35"></i><span>CodeIgniter</span></div>
+      <div class="icon-card"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+      <div class="icon-card"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+      <div class="icon-card"><i class="devicon-csharp-plain colored"></i><span>C#</span></div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <div class="cat-head"><span class="cat-emoji">🗄️</span><h3>Databases</h3></div>
+    <div class="icon-grid">
+      <div class="icon-card"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+      <div class="icon-card"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+      <div class="icon-card"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+      <div class="icon-card"><i class="devicon-sqlite-plain colored"></i><span>SQLite</span></div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <div class="cat-head"><span class="cat-emoji">🤖</span><h3>Data Science &amp; Machine Learning</h3></div>
+    <div class="icon-grid">
+      <div class="icon-card"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+      <div class="icon-card"><i class="devicon-numpy-plain colored"></i><span>NumPy</span></div>
+      <div class="icon-card"><i class="devicon-pandas-plain colored"></i><span>Pandas</span></div>
+      <div class="icon-card"><i class="devicon-matplotlib-plain"></i><span>Matplotlib</span></div>
+      <div class="icon-card"><i class="devicon-scikitlearn-plain colored"></i><span>Scikit-learn</span></div>
+      <div class="icon-card"><i class="devicon-tensorflow-original colored"></i><span>TensorFlow</span></div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <div class="cat-head"><span class="cat-emoji">🛠️</span><h3>Developer Tools</h3></div>
+    <div class="icon-grid">
+      <div class="icon-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+      <div class="icon-card"><i class="devicon-github-original"></i><span>GitHub</span></div>
+      <div class="icon-card"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+      <div class="icon-card"><i class="fa-solid fa-paper-plane icon-fallback" style="color:#ff6c37"></i><span>Postman</span></div>
+      <div class="icon-card"><i class="devicon-figma-plain colored"></i><span>Figma</span></div>
+      <div class="icon-card"><i class="fa-solid fa-palette icon-fallback" style="color:#00c4cc"></i><span>Canva</span></div>
+      <div class="icon-card"><i class="devicon-powershell-plain colored"></i><span>PowerShell</span></div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <div class="cat-head"><span class="cat-emoji">☁️</span><h3>Cloud &amp; Networking</h3></div>
+    <div class="icon-grid">
+      <div class="icon-card"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
+      <div class="icon-card"><i class="fa-solid fa-network-wired icon-fallback" style="color:#049fd9"></i><span>Cisco</span></div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <div class="cat-head"><span class="cat-emoji">🧪</span><h3>Programming Languages</h3></div>
+    <div class="icon-grid">
+      <div class="icon-card"><i class="devicon-c-plain colored"></i><span>C</span></div>
+      <div class="icon-card"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+      <div class="icon-card"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+      <div class="icon-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="section-head"><span class="section-num">03</span><h2 class="section-title">Work <span class="grad2">experience</span></h2></div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-date">2025 — Present</div>
+      <h3>Full Stack Developer Intern</h3>
+      <p class="tl-org">Tech Solutions Pvt. Ltd.</p>
+      <p>Built and maintained full stack features across React front ends and Node.js APIs, collaborating with a small team on sprint-based delivery.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">2024 — 2025</div>
+      <h3>Freelance Web Developer</h3>
+      <p class="tl-org">Self-employed</p>
+      <p>Delivered responsive websites and small business dashboards for clients, handling everything from design handoff to deployment.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">2023 — 2024</div>
+      <h3>Machine Learning Research Assistant</h3>
+      <p class="tl-org">University Lab</p>
+      <p>Assisted in building and evaluating ML models for a research project, working with Python, Pandas, and Scikit-learn.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="section-head"><span class="section-num">04</span><h2 class="section-title">Featured <span class="grad2">projects</span></h2></div>
+  <div class="projects-grid">
+    <div class="project-card">
+      <span class="project-tag">FULL STACK</span>
+      <h3>E-Commerce Dashboard</h3>
+      <p>An admin dashboard with real-time sales analytics, order management, and role-based access control.</p>
+      <div class="tech-row"><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">MongoDB</span></div>
+      <a href="#" class="project-link">View project <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="project-card">
+      <span class="project-tag">AI/ML</span>
+      <h3>Sentiment Analysis Tool</h3>
+      <p>A model that classifies customer reviews as positive, negative, or neutral, with a simple web interface for live testing.</p>
+      <div class="tech-row"><span class="chip">Python</span><span class="chip">Scikit-learn</span><span class="chip">Flask</span></div>
+      <a href="#" class="project-link">View project <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="project-card">
+      <span class="project-tag">WEB APP</span>
+      <h3>Task Management System</h3>
+      <p>A collaborative task tracker with drag-and-drop boards, deadlines, and team notifications.</p>
+      <div class="tech-row"><span class="chip">Next.js</span><span class="chip">PostgreSQL</span><span class="chip">Tailwind</span></div>
+      <a href="#" class="project-link">View project <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="project-card">
+      <span class="project-tag">API</span>
+      <h3>Weather Forecast API</h3>
+      <p>A lightweight REST API aggregating multiple weather sources with caching for fast, reliable responses.</p>
+      <div class="tech-row"><span class="chip">FastAPI</span><span class="chip">Redis</span><span class="chip">Docker</span></div>
+      <a href="#" class="project-link">View project <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head"><span class="section-num">05</span><h2 class="section-title">Get in <span class="grad2">touch</span></h2></div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Let's work together!</h3>
+      <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+
+      <div class="contact-card">
+        <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value">laxmanvechalapu94@gmail.com</div>
+        </div>
+      </div>
+      <div class="contact-card">
+        <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+        <div>
+          <div class="contact-label">Phone</div>
+          <div class="contact-value">+91 7729823762</div>
+        </div>
+      </div>
+      <div class="contact-card">
+        <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+        <div>
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Bangalore, India</div>
+        </div>
+      </div>
+
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <label>
+        <span>Your Name</span>
+        <input type="text" name="name" placeholder="Enter your name" required>
+      </label>
+      <label>
+        <span>Your Email</span>
+        <input type="email" name="email" placeholder="Enter your email" required>
+      </label>
+      <label>
+        <span>Your Message</span>
+        <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary full-width">Send Message</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-socials">
+    <a href="https://github.com/laxmanvechalapu94-cloud" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://linkedin.com/in/laxman-kumar-b551b3392" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://twitter.com/LVechalapu98692" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+  </div>
+  <p>© 2026 Laxman · Built with HTML, CSS &amp; JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
